@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+    {% block title %} Home {% endblock title %}
+
+    {% block header %}
+    <h1>My Favorites!</h1>
+    <h4>Select one of the options below</h4>
+    {% endblock header %}
+    {% block content %}
+    <form action="sports">
+        <input type="Submit" value="Sports" class="btn btn-outline-primary">
+    </form>
+    <form action="food" class="pt-3">
+        <input type="Submit" value="Food" class="btn btn-outline-primary">
+    </form>
+    <form action="hobbies" class="pt-3">
+        <input type="Submit" value="Hobbies" class="btn btn-outline-primary">
+    </form>
+    <form action="videogames" class="pt-3">
+        <input type="Submit" value="Video Games" class="btn btn-outline-primary">
+    </form>
+    {% endblock content %}
+

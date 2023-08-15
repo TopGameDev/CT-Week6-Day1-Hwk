@@ -1,0 +1,11 @@
+*{
+    font-style: italic;
+    font-family: 'Futura';
+}
+
+li{
+    list-style-type: none;
+    color: orangered;
+    border: solid black 5px;
+    border-width: 40px;
+}
